@@ -1,0 +1,154 @@
+/* 🌍 Allgemeines Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* ✨ Hauptbereich */
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+/* 🏆 Über uns */
+.about-us {
+  text-align: center;
+  padding: 60px;
+  background: #f9f9f9;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  color: #005f73;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* 🛠 Leistungen */
+.services {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.services h2 {
+  font-size: 2rem;
+  color: #005f73;
+  margin-bottom: 20px;
+}
+
+/* 🏗 Grid-Layout für Kacheln */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* 🔹 Leistungskarten */
+.service-card {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* 📍 Standortbereich */
+.service-locations {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-locations p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* 📲 Kontakt */
+.contact {
+  text-align: center;
+  padding: 60px;
+  background: #f9f9f9;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  color: #005f73;
+  margin-bottom: 20px;
+}
+
+/* 📞 Kontaktinformationen */
+.contact-info p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #444;
+}
+
+/* 💬 WhatsApp & E-Mail Buttons */
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.whatsapp-button, .email-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.whatsapp-button {
+  background: #25D366;
+}
+
+.email-button {
+  background: #005f73;
+}
+
+.whatsapp-button:hover {
+  background: #1DA851;
+}
+
+.email-button:hover {
+  background: #003f5c;
+}

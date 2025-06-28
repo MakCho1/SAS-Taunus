@@ -1,0 +1,48 @@
+{
+  "name": "shah",
+  "version": "1.0.0",
+  "description": "A simple React single page application named Shah.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "single-page-application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "8.1.0",
+    "dotenv": "^16.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-lightbox-component": "^1.2.1",
+    "react-scripts": "^5.0.1",
+    "webpack-dev-server": "^5.2.1",
+    "yet-another-react-lightbox": "^3.23.2"
+  },
+  "homepage": ".",
+  "bugs": {
+    "url": "https://github.com/yourusername/shah/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/shah.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

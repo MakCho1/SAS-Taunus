@@ -1,0 +1,48 @@
+/* 🌟 Allgemeines Header-Design */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #333; /* Gleiche Farbe wie der Footer */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* 🏆 Titel */
+.header-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* 🔗 Navigation */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.header-link:hover {
+  color: #ffb703; /* Farbwechsel beim Hover */
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive Anpassungen */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+}
