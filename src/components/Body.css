@@ -99,6 +99,11 @@ main {
   margin: auto;
 }
 
+.service-images img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
 /* 📲 Kontakt */
 .contact {
   text-align: center;
